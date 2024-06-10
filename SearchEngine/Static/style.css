@@ -1,0 +1,46 @@
+body {
+    background-color: #f1f1f1;
+    font-style: sans-serrif;
+} 
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+} 
+
+h1 {
+    text-align: center;
+} 
+
+form {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+} 
+
+input[type=text] {
+    width: 70%;
+    padding: 12px 20px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+} 
+
+input[type=text]:focus {
+    border-color: lightblue;
+    outline: none; /* Optional: Remove the default outline on focus */
+}
+
+button[type=submit] {
+    background-color: rgb(29, 120, 224);
+    color: white;
+    padding: 12px 20px; 
+    border: none;
+    border-radius: 4px; 
+    cursor: pointer;
+} 
+
+button[type=submit]:hover {
+    background-color: rgb(4, 112, 235);
+}
